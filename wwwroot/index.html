@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo IA – DynamicAIAPI</title>
+
+  <!-- Archivo CSS -->
+  <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+  <h1>Demo IA – DynamicAIAPI</h1>
+
+  <div class="container">
+    <!-- Clasificar intención -->
+    <section class="card">
+      <h2>/api/intencion/clasificar</h2>
+      <p>Clasifica la intención de un mensaje.</p>
+
+      <label for="input-intencion">Texto del usuario</label>
+      <textarea id="input-intencion"></textarea>
+
+      <button id="btn-intencion">Clasificar intención</button>
+
+      <div class="status" id="status-intencion"></div>
+
+      <div class="result-label">Respuesta JSON:</div>
+      <pre id="result-intencion">{}</pre>
+    </section>
+
+    <!-- Resumir texto -->
+    <section class="card">
+      <h2>/api/texto/resumir</h2>
+      <p>Genera un resumen corto del texto proporcionado.</p>
+
+      <label for="input-resumen">Texto a resumir</label>
+      <textarea id="input-resumen"></textarea>
+
+      <button id="btn-resumen">Resumir texto</button>
+
+      <div class="status" id="status-resumen"></div>
+
+      <div class="result-label">Respuesta JSON:</div>
+      <pre id="result-resumen">{}</pre>
+    </section>
+  </div>
+
+  <!-- Archivo JS -->
+  <script src="/js/app.js"></script>
+</body>
+</html>
