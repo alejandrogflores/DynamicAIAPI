@@ -56,18 +56,6 @@ dotnet run
 ```
 
 Salida esperada:
-# Ejecutar el proyecto
-
-Desde la raíz del proyecto:
-
-```
-dotnet restore
-dotnet build
-dotnet run
-```
-
-Salida esperada:
-
 
 Now listening on: http://localhost:5144
 Endpoints disponibles
@@ -131,8 +119,11 @@ Los endpoints incluyen validaciones:
 - Conversión tipada mediante modelos DTO
 
 # Colección de Postman
+<img width="1179" height="742" alt="Captura de pantalla 2025-12-12 a la(s) 7 50 34 a  m" src="https://github.com/user-attachments/assets/17eae0d5-b897-4d02-92f8-c6f800b13bb5" />
 
-https://alejandrogflores2015-4297215.postman.co/workspace/Jorge-Alejandro-Garc%C3%ADa-Flores's~1c4c776d-9ff9-4c3a-8536-0d677e83f7f6/collection/50724924-300dd66e-c732-40ef-a40b-b5569a54845e?action=share&creator=50724924&live=uh10c29d5i
+
+<img width="1179" height="742" alt="Captura de pantalla 2025-12-12 a la(s) 7 50 34 a  m" src="https://github.com/user-attachments/assets/f128f455-9df3-46d3-845a-e28fe43b1bb3" />
+
 
 # Cumplimiento de los requisitos de la prueba técnica
 
